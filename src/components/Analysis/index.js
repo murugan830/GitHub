@@ -122,6 +122,7 @@ class Analysis extends Component {
 
     return (
       <div className="AnalysisSuccessViewContainer">
+        <h1>Analysis</h1>
         {analysisListLength ? (
           <div className="noDataRepoAnalysisContainer">
             <img

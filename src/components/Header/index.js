@@ -53,16 +53,22 @@ class Header extends Component {
           </nav>
           {activeStatus && (
             <nav>
-              <ul className="nav-items-container">
-                <Link to="/" className="item-link">
-                  <li>Home</li>
-                </Link>
-                <Link to="/repositories" className="item-link">
-                  <li>Repositories</li>
-                </Link>
-                <Link to="/analysis" className="item-link">
-                  <li>Analysis</li>
-                </Link>
+              <ul className="items-nav">
+                <li>
+                  <Link to="/" className="item-nav-link">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/repositories" className="item-nav-link">
+                    Repositories
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/analysis" className="item-nav-link">
+                    Analysis
+                  </Link>
+                </li>
               </ul>
             </nav>
           )}
